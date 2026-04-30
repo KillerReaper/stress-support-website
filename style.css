@@ -154,6 +154,17 @@ main {
   color: var(--muted-text);
 }
 
+.page-title-block h1 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.15;
+  color: var(--primary-dark);
+}
+
+.page-title-block p {
+  max-width: 44rem;
+}
+
 .impact-list {
   margin: 1rem 0 0;
   padding-left: 1.4rem;
@@ -162,6 +173,16 @@ main {
 
 .impact-list li + li {
   margin-top: 0.6rem;
+}
+
+.step-list {
+  margin: 1rem 0 0;
+  padding-left: 1.4rem;
+  color: var(--muted-text);
+}
+
+.step-list li + li {
+  margin-top: 0.8rem;
 }
 
 .card-grid {
@@ -218,6 +239,19 @@ main {
 
 .site-footer p {
   margin: 0.3rem 0;
+}
+
+.video-placeholder {
+  display: grid;
+  place-items: center;
+  min-height: 260px;
+  margin-top: 1.25rem;
+  padding: 1.5rem;
+  border: 2px dashed var(--border-color);
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(231, 245, 242, 0.7) 0%, rgba(255, 255, 255, 0.95) 100%);
+  color: var(--muted-text);
+  text-align: center;
 }
 
 @media (max-width: 860px) {
